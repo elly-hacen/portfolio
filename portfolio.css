@@ -1,0 +1,161 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.header__nav a {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header__nav a:hover {
+    color: #e67e22;
+}
+
+.hero {
+    padding: 150px 0;
+    text-align: center;
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.hero__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero__subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero__cta {
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero__cta:hover {
+    background-color: #d35400;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.hero__image {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #e67e22;
+}
+
+.projects {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.project-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+    padding: 80px 0;
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.skills__inner .badge {
+    background-color: #e67e22;
+    font-weight: 500;
+}
+
+/* Contact Section Styles */
+
+.contact {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.contact__inner {
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.contact__inner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact__inner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contact__inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact__inner li {
+    margin-bottom: 20px;
+}
+
+.contact__inner a {
+    color: #337ab7;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact__inner a:hover {
+    color: #e67e22;
+}
+
+.contact__inner button {
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact__inner button:hover {
+    background-color: #d35400;
+}
