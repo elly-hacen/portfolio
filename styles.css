@@ -1,4 +1,10 @@
 /* Global styles */
+
+/* body.dark-bg {
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+}
+  */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -17,6 +23,10 @@ body {
     margin-bottom: 3rem;
 }
 
+/* .top-heading {
+    color: #f8f9fa;
+} */
+
 /* Card styles */
 .card {
     border: none;
@@ -24,13 +34,19 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #ffffff;
+    /* background-color: #1e1e1e;
+    color: #ffffff;  */
     padding: 30px;
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    display: flex;
+    justify-content: center;
 }
 
 .card img {
@@ -41,6 +57,7 @@ body {
     height: 200px;
     object-fit: cover;
     border: 5px solid #e67e22;
+   
 }
 
 .card-body {
