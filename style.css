@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #dac5b1, #ffffff);
 }
 
 html {
@@ -204,6 +205,7 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+
 }
 
 /* ICONS */
