@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#0b0f0e]"">
+    <head>
+        <meta charset=" UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ALi Hassan | Portfolio</title>
+<!-- SEO -->
+<meta name="description"
+    content="Portfolio of Elie Hacen, a Rust, Python, and Django Developer focusing on cybersecurity and Linux systems." />
+<meta property="og:title" content="Elie Hacen | Developer Portfolio" />
+<meta property="og:description" content="Rust & Django developer with a passion for security and efficiency." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://ui-avatars.com/api/?name=Elie+Hacen" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Elie Hacen | Developer Portfolio" />
+<meta name="twitter:description" content="Rust & Django developer with a passion for security and efficiency." />
+<meta name="twitter:image" content="https://ui-avatars.com/api/?name=Elie+Hacen" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" as="style">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Devicon (for Arch, Django) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+
+<body class="bg-[#0b0f0e] text-green-300 font-mono selection:bg-green-500 selection:text-black">
+    <!-- Scroll Progress Bar -->
+    <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-green-500 z-50"></div>
+    <!-- Navigation -->
+    <nav
+        class="fixed top-0 left-0 right-0 bg-black bg-opacity-40 backdrop-blur-md z-50 p-4 flex justify-center space-x-6 text-sm shadow-md border-b border-green-900/30">
+        <a href="#about" class="text-green-300 hover:text-white transition font-mono">about</a>
+        <a href="#skills" class="text-green-300 hover:text-white transition font-mono">skills</a>
+        <a href="#experience" class="text-green-300 hover:text-white transition font-mono">experience</a>
+        <a href="#projects" class="text-green-300 hover:text-white transition font-mono">projects</a>
+        <a href="#contact" class="text-green-300 hover:text-white transition font-mono">contact</a>
+    </nav>
+    <header class="text-center pt-32 pb-20" data-aos="fade-up">
+        <!-- Profile Avatar -->
+        <img src="./assets/profile-pic.png" alt="Profile"
+            class="w-32 h-32 rounded-full mx-auto mb-6 shadow-lg border-4 border-green-700/30" />
+        <!-- Name -->
+        <h1 class="text-5xl font-extrabold tracking-tight text-green-400 font-mono">Ali Hassan</h1>
+        <!-- Typing Effect -->
+        <p class="text-xl text-green-500 mt-2 font-mono">
+            <span id="typed"></span>
+        </p>
+        <!-- Social Links -->
+        <div class="flex justify-center mt-5 space-x-5 text-2xl text-green-400">
+            <a href="https://github.com/elly-hacen" target="_blank"><i
+                    class="fab fa-github hover:text-white transition"></i></a>
+            <a href="https://pk.linkedin.com/in/elly-hacen" target="_blank"><i
+                    class="fab fa-linkedin hover:text-white transition"></i></a>
+            <a href="https://x.com/ElieHacen" target="_blank"><i
+                    class="fab fa-x-twitter hover:text-white transition"></i></a>
+        </div>
+        <!-- Resume Button -->
+        <a href="resume.pdf" download
+            class="inline-block mt-6 px-6 py-2 bg-green-600 hover:bg-green-700 text-black font-semibold rounded-full transition shadow font-mono">
+            Download Resume
+        </a>
+    </header>
+    <!-- About Me -->
+    <section id="about" class="max-w-4xl mx-auto px-6 mb-16" data-aos="fade-right">
+        <div
+            class="bg-[#0a0a0a] text-green-400 font-mono p-8 rounded-2xl shadow-xl border border-green-700 relative overflow-hidden">
+            <!-- Terminal-style header -->
+            <h2 class="text-4xl font-bold mb-6 border-b border-green-700 pb-2 relative z-10">
+                ~/about_me<span class="text-green-600">_</span>
+            </h2>
+            <div class="grid gap-5 text-[1.05rem] leading-relaxed z-10 relative">
+                <div>
+                    <span class="text-green-500">Name:</span> Ali Hassan
+                </div>
+                <div>
+                    <span class="text-green-500">Title:</span> IT Student at University of Agriculture Faisalabad (UAF)
+                </div>
+                <div>
+                    <span class="text-green-500">Focus:</span> Django, Ethical Hacking, Linux Internals, Rust CLI Tools
+                </div>
+                <div>
+                    <span class="text-green-500">Project:</span> <strong>elif</strong> — a Rust-based CLI tool
+                    automating complex Linux tasks (in development)
+                </div>
+                <div>
+                    <span class="text-green-500">Motto:</span> Break → Understand → Build → Repeat
+                </div>
+            </div>
+            <p class="mt-6 text-sm italic text-green-600 border-t border-green-800 pt-4 z-10 relative">
+                Proud of what I'm building. Always evolving. Always learning.
+            </p>
+            <!-- Optional: subtle hacker-style texture -->
+            <div
+                class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/dark-mosaic.png')] z-0">
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-4xl mx-auto px-6 mb-20" data-aos="fade-up">
+        <div
+            class="bg-[#0a0a0a] text-green-400 font-mono p-8 rounded-2xl shadow-xl border border-green-700 relative overflow-hidden">
+            <h2 class="text-4xl font-bold mb-6 border-b border-green-700 pb-2 relative z-10">
+                ~/skills<span class="text-green-600">_</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-left z-10 relative">
+
+                <!-- Python -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <i class="devicon-python-plain text-green-400 text-3xl mb-2"></i>
+                    <h3 class="text-lg font-semibold mt-2">Python</h3>
+                    <p class="text-sm text-green-500">2 Years — Scripting, Automation, AI/ML</p>
+                </div>
+
+                <!-- Rust -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <span class="text-3xl text-green-400 mb-2 block">R</span>
+                    <h3 class="text-lg font-semibold mt-2">Rust</h3>
+                    <p class="text-sm text-green-500">6 Months — Fearless Concurrency</p>
+                </div>
+
+                <!-- Django -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <i class="devicon-django-plain text-green-400 text-3xl mb-2"></i>
+                    <h3 class="text-lg font-semibold mt-2">Django</h3>
+                    <p class="text-sm text-green-500">1.5 Years — REST APIs & Admin Panels</p>
+                </div>
+
+
+                <!-- C# -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <i class="devicon-csharp-plain text-green-400 text-3xl mb-2"></i>
+                    <h3 class="text-lg font-semibold mt-2">C#</h3>
+                    <p class="text-sm text-green-500">.NET Development</p>
+                </div>
+
+                <!-- Linux (generalized) -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <i class="devicon-linux-plain text-green-400 text-3xl mb-2"></i>
+                    <h3 class="text-lg font-semibold mt-2">Linux</h3>
+                    <p class="text-sm text-green-500">Black Arch, Arch Linux, Kali & Ubuntu Linux — 3 Years Experience
+                    </p>
+                </div>
+
+                <!-- Git -->
+                <div class="bg-[#111] border border-green-800 p-4 rounded-xl hover:scale-105 transition shadow">
+                    <i class="fa-brands fa-git text-green-400 text-3xl mb-2"></i>
+                    <h3 class="text-lg font-semibold mt-2">Git</h3>
+                    <p class="text-sm text-green-500">Version Control & Collaboration</p>
+                </div>
+
+
+            </div>
+            <div
+                class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/dark-mosaic.png')] z-0">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-4xl mx-auto px-6 mb-20" data-aos="fade-up">
+        <div
+            class="bg-[#0a0a0a] text-green-400 font-mono p-8 rounded-2xl shadow-xl border border-green-700 relative overflow-hidden">
+            <!-- Terminal-style header -->
+            <h2 class="text-4xl font-bold mb-6 border-b border-green-700 pb-2 relative z-10">
+                ~/projects<span class="text-green-600">_</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6 relative z-10">
+                <!-- Project Card -->
+                <div
+                    class="bg-[#111] border border-green-800 p-5 rounded-xl hover:scale-[1.02] transition transform shadow">
+                    <h3 class="text-xl font-semibold mb-1">Al-Quran</h3>
+                    <p class="text-green-300 text-sm mb-3">Site with daily Ayah, Hadith, Duas, quizzes, and blogs.</p>
+                    <div class="flex flex-wrap gap-2 mb-3 text-xs">
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Python</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Django</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">PostgreSQL</span>
+                    </div>
+                    <a href="https://github.com/elly-hacen/innocent" target="_blank"
+                        class="text-green-500 hover:underline text-xs">[GitHub]</a>
+                </div>
+                <div
+                    class="bg-[#111] border border-green-800 p-5 rounded-xl hover:scale-[1.02] transition transform shadow">
+                    <h3 class="text-xl font-semibold mb-1">Elif</h3>
+                    <p class="text-green-300 text-sm mb-3">a Rust-based CLI tool automating complex Linux tasks (in
+                        development).</p>
+                    <div class="flex flex-wrap gap-2 mb-3 text-xs">
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Rust</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Linux</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">CLI Tool</span>
+                    </div>
+                    <a href="#" target="_blank" class="text-green-500 hover:underline text-xs">[GitHub]</a>
+                </div>
+                <div
+                    class="bg-[#111] border border-green-800 p-5 rounded-xl hover:scale-[1.02] transition transform shadow">
+                    <h3 class="text-xl font-semibold mb-1">Fassil-ul-Huroof</h3>
+                    <p class="text-green-300 text-sm mb-3">Web app for extracting Urdu and Arabic text from images.</p>
+                    <div class="flex flex-wrap gap-2 mb-3 text-xs">
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Python</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">AI</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Django</span>
+                    </div>
+                    <a href="#" target="_blank" class="text-green-500 hover:underline text-xs">[GitHub]</a>
+                </div>
+                <div
+                    class="bg-[#111] border border-green-800 p-5 rounded-xl hover:scale-[1.02] transition transform shadow">
+                    <h3 class="text-xl font-semibold mb-1">Innocent</h3>
+                    <p class="text-green-300 text-sm mb-3">
+                        Python-based tool for extracting saved login credentials from the Google Chrome web browser.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-3 text-xs">
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Python</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">Security</span>
+                        <span class="px-2 py-0.5 border border-green-700 rounded-full">sqlite3</span>
+                    </div>
+                    <a href="#" target="_blank" class="text-green-500 hover:underline text-xs">[GitHub]</a>
+                </div>
+            </div>
+            <!-- Optional texture -->
+            <div
+                class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/dark-mosaic.png')] z-0">
+            </div>
+        </div>
+    </section>
+    <!-- Experience Timeline -->
+    <section id="experience" class="max-w-4xl mx-auto px-6 mb-20" data-aos="fade-left">
+        <div
+            class="bg-[#0a0a0a] text-green-400 font-mono p-8 rounded-2xl shadow-xl border border-green-700 relative overflow-hidden">
+            <h2 class="text-4xl font-bold mb-6 border-b border-green-700 pb-2 relative z-10">
+                ~/experience<span class="text-green-600">_</span>
+            </h2>
+            <ol class="relative border-l border-green-700 ml-2 space-y-12 z-10">
+                <!-- Education -->
+                <li class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-green-500 rounded-full -left-1 top-1.5"></div>
+                    <time class="text-sm text-green-600 block mb-1">2021 – 2024</time>
+                    <h3 class="text-lg font-semibold text-green-300">BS IT – University of Agriculture Faisalabad</h3>
+                    <p class="text-sm text-green-400">Core focus: Linux, Networking, Python & Rust</p>
+                </li>
+                <!-- Freelance Security Research -->
+                <li class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-green-500 rounded-full -left-1 top-1.5"></div>
+                    <time class="text-sm text-green-600 block mb-1">2023</time>
+                    <h3 class="text-lg font-semibold text-green-300">Freelance Python & Django Development</h3>
+                    <p class="text-sm text-green-400">Built web apps, REST APIs, and admin panels;</p>
+                </li>
+
+            </ol>
+            <!-- Optional background texture -->
+            <div
+                class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/asfalt-light.png')] z-0">
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="max-w-4xl mx-auto px-6 mb-16" data-aos="fade-up">
+        <div class="glass p-8 rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-semibold mb-6 border-b border-green-700 pb-2 text-green-400 font-mono">~/contact_
+            </h2>
+            <form action="https://formspree.io/f/yourFormID" method="POST" class="space-y-6">
+                <!-- Name -->
+                <div>
+                    <label for="name" class="block text-green-400 font-mono mb-1">name:</label>
+                    <input type="text" id="name" name="name" required
+                        class="w-full px-4 py-2 bg-white bg-opacity-10 backdrop-blur-sm text-[#00FF99] placeholder-[#00FF99] border border-green-700 rounded focus:outline-none focus:ring-2 focus:ring-green-500 transition font-mono" />
+                </div>
+                <!-- Email -->
+                <div>
+                    <label for="email" class="block text-green-400 font-mono mb-1">email:</label>
+                    <input type="email" id="email" name="_replyto" required
+                        class="w-full px-4 py-2 bg-white bg-opacity-10 backdrop-blur-sm text-[#00FF99] placeholder-[#00FF99] border border-green-700 rounded focus:outline-none focus:ring-2 focus:ring-green-500 transition font-mono" />
+                </div>
+                <!-- Message -->
+                <div>
+                    <label for="message" class="block text-green-400 font-mono mb-1">message:</label>
+                    <textarea id="message" name="message" rows="5" required
+                        class="w-full px-4 py-2 bg-white bg-opacity-10 backdrop-blur-sm text-[#00FF99] placeholder-[#00FF99] border border-green-700 rounded focus:outline-none focus:ring-2 focus:ring-green-500 transition font-mono"></textarea>
+                </div>
+                <!-- Submit -->
+                <div>
+                    <button type="submit"
+                        class="px-6 py-2 bg-green-600 hover:bg-green-700 text-black font-bold rounded-lg transition shadow font-mono">
+                        send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer
+        class="text-center py-6 text-[#00FF99] text-sm bg-white bg-opacity-5 backdrop-blur-sm border border-green-700 rounded-t-2xl max-w-4xl mx-auto mb-6 shadow-lg"
+        data-aos="fade-up">
+        &copy; 2025 ALi Hassan. Built with ❤️ using <span class="font-bold text-green-400">Tailwind CSS</span>.
+    </footer>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
